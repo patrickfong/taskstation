@@ -1,6 +1,5 @@
-; Requires 
-; - cb.exe from http://www.autohotkey.com/misc/cb.zip
-; - Unix utils http://unxutils.sourceforge.net/UnxUpdates.zip
+; Starts redmine in webapp mode and stores the 
+; Window ID for activing the window later on.
 
 global chromeWindowID
 global chromeLocator := "0 - Dashboard View - Hampton Green - Task Management System ahk_class Chrome_WidgetWin_1"
